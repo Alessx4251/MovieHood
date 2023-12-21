@@ -1,6 +1,13 @@
 body {
     background-color: darkgray;
 }
+
+main {
+    background-color: whitesmoke;
+    border-radius: 35px;
+    margin: 10px;
+    padding: 10px;
+}
 .container {
     display: flex;
     align-items: center;
@@ -23,6 +30,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+
 }
 
 .item p {
@@ -31,11 +39,16 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    box-shadow: -5px 12px 20px 0px;
     height: 500px;
    width: 250px;
-    border: 2px solid darkblue;
-    border-radius: 10%;
+    border-radius: 20px;
     margin: 5px;
+    color: black;
+    justify-content: space-between;
 }
 
 
@@ -46,7 +59,6 @@ body {
     width: auto;
     height: auto;
     align-items: center;
-    align-self: center;
     justify-content: center;
     justify-items: center;
 }
@@ -62,5 +74,6 @@ body {
     width: 125px;
     height: fit-content;
     flex-direction: row;
+    bottom: 1%;
     
 }
