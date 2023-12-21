@@ -1,0 +1,66 @@
+body {
+    background-color: darkgray;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+.titulo {
+    font-size: medium;
+    font-weight: lighter;
+}
+
+.row {
+    display: flex;
+    align-self: center;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item p {
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    height: 500px;
+   width: 250px;
+    border: 2px solid darkblue;
+    border-radius: 10%;
+    margin: 5px;
+}
+
+
+.botones {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: small;
+    width: auto;
+    height: auto;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.boton-ver {
+ background-color: aqua;
+}
+
+.boton-fav {
+ background-color: yellowgreen;
+}
+.item button {
+    width: 125px;
+    height: fit-content;
+    flex-direction: row;
+    
+}
