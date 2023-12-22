@@ -18,8 +18,10 @@ main {
 
 
 .titulo {
-    font-size: medium;
-    font-weight: lighter;
+    font-size: large;
+    font-weight: bold;
+    color:black;
+
 }
 
 .row {

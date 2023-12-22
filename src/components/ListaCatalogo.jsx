@@ -8,7 +8,7 @@ function ProductoItem() {
 
     return (
         <div className='container'>
-            <h2 className='titulo'>Peliculas</h2>
+            <h2 className='titulo'>Catalogo de Peliculas:</h2>
             <div className='row'>
 
                 {data.map(producto => (
